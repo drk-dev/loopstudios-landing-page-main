@@ -303,7 +303,7 @@
     header h1 {
         text-transform: uppercase;
         font-size: 2.3rem;
-        font-weight: 200;
+        font-weight: lighter;
         letter-spacing: 0.0697em;
         position: absolute;
         top: 28vh;
@@ -404,7 +404,7 @@
 
     .vr-div {
         margin: auto;
-        width: 80%;
+        width: 90%;
     }
 
     .first-section {
@@ -413,9 +413,10 @@
     }
 
     .first-section p {
-        font-size: 1.1em;
-        font-family: "Alata", sans-serif;
+        font-size: 1rem;
         color: rgb(126, 119, 119);
+        font-family: "Josefin Sans", sans-serif;
+        font-weight: lighter;
     }
 
     .first-section img {
@@ -457,7 +458,7 @@
         align-items: flex-start;
         justify-content: flex-end;
         text-transform: uppercase;
-        font-size: 1.8em;
+        font-size: 1.6em;
         padding: 20px;
     }
     .item p {

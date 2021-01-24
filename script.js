@@ -15,12 +15,7 @@ toggle.addEventListener('click', () => {
     close_btn.classList.toggle('active')
 })
 
-close_btn.addEventListener('click', () => {
-    logo.style.position = 'fixed'
-})
 
 
-close_btn.addEventListener('click', () => {
-    close_btn.style.position = 'fixed'
-    close_btn.style.zIndex = '1'
-})
+
+
