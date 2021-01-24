@@ -185,47 +185,47 @@
     }
 
     .deep-earth {
-        background-image: url("/images/desktop/image-deep-earth.jpg");
+        background-image: url("./images/desktop/image-deep-earth.jpg");
         background-size: cover;
         background-position: center;
     }
     .night-arcade {
         background-image: linear-gradient(to right, rgba(42, 43, 49, 0.52), rgba(226, 226, 226, 0)),
-            url("/images/desktop/image-night-arcade.jpg");
+            url("./images/desktop/image-night-arcade.jpg");
         background-size: cover;
         background-position: center;
     }
     .soccer-team {
-        background-image: url("/images/desktop/image-soccer-team.jpg");
+        background-image: url("./images/desktop/image-soccer-team.jpg");
         background-size: cover;
         background-position: center;
     }
     .the-grid {
-        background-image: url("/images/desktop/image-grid.jpg");
+        background-image: url("./images/desktop/image-grid.jpg");
         background-size: cover;
         background-position: center;
     }
 
     .above-vr {
-        background-image: url("/images/desktop/image-from-above.jpg");
+        background-image: url("./images/desktop/image-from-above.jpg");
         background-size: cover;
         background-position: center;
     }
 
     .pocket-borealis {
-        background-image: url("/images/desktop/image-pocket-borealis.jpg");
+        background-image: url("./images/desktop/image-pocket-borealis.jpg");
         background-size: cover;
         background-position: center center;
     }
 
     .curiosity {
-        background-image: url("/images/desktop/image-curiosity.jpg");
+        background-image: url("./images/desktop/image-curiosity.jpg");
         background-size: cover;
         background-position: center;
     }
 
     .fisheye {
-        background-image: url("/images/desktop/image-fisheye.jpg");
+        background-image: url("./images/desktop/image-fisheye.jpg");
         background-size: cover;
         background-position: center;
     }
@@ -472,47 +472,47 @@
     /*=====Image Style======*/
 
     .deep-earth {
-        background-image: url("/images/mobile/image-deep-earth.jpg");
+        background-image: url("./images/mobile/image-deep-earth.jpg");
         background-size: cover;
         background-position: center;
     }
     .night-arcade {
         background-image: linear-gradient(to right, rgba(42, 43, 49, 0.52), rgba(226, 226, 226, 0)),
-            url("/images/mobile/image-night-arcade.jpg");
+            url("./images/mobile/image-night-arcade.jpg");
         background-size: cover;
         background-position: center;
     }
     .soccer-team {
-        background-image: url("/images/mobile/image-soccer-team.jpg");
+        background-image: url("./images/mobile/image-soccer-team.jpg");
         background-size: cover;
         background-position: center;
     }
     .the-grid {
-        background-image: url("/images/mobile/image-grid.jpg");
+        background-image: url("./images/mobile/image-grid.jpg");
         background-size: cover;
         background-position: center;
     }
 
     .above-vr {
-        background-image: url("/images/mobile/image-from-above.jpg");
+        background-image: url("./images/mobile/image-from-above.jpg");
         background-size: cover;
         background-position: center;
     }
 
     .pocket-borealis {
-        background-image: url("/images/mobile/image-pocket-borealis.jpg");
+        background-image: url("./images/mobile/image-pocket-borealis.jpg");
         background-size: cover;
         background-position: center center;
     }
 
     .curiosity {
-        background-image: url("/images/mobile/image-curiosity.jpg");
+        background-image: url("./images/mobile/image-curiosity.jpg");
         background-size: cover;
         background-position: center;
     }
 
     .fisheye {
-        background-image: url("/images/mobile/image-fisheye.jpg");
+        background-image: url("./images/mobile/image-fisheye.jpg");
         background-size: cover;
         background-position: center;
     }
