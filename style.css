@@ -423,7 +423,7 @@
         width: 95%;
     }
 
-    .first-section h1 {
+    .first-section h2 {
         text-transform: uppercase;
         font-size: 1.8em;
         letter-spacing: 3px;
@@ -431,7 +431,7 @@
         color: #111;
     }
 
-    .second-section h1 {
+    .second-section h2 {
         font-size: 1.5em;
         letter-spacing: 3px;
         font-family: "Josefin Sans", sans-serif;
