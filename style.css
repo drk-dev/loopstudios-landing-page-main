@@ -9,7 +9,7 @@
 
 @media (min-width: 640px) {
     body {
-        max-width: 1440px;
+        max-width: 90rem;
         margin: auto;
         font-family: "Josefin Sans", sans-serif;
     }
@@ -18,12 +18,16 @@
         display: none;
     }
 
+    .header-container {
+        display: flex;
+        justify-content: space-around;
+    }
     header {
         background: url(./images/desktop/image-hero.jpg) rgba(0, 0, 0, 0.4) no-repeat center;
         background-blend-mode: multiply;
         background-size: cover;
         color: white;
-        height: 650px;
+        height: 40.625rem;
     }
 
     header h1 {
@@ -33,7 +37,7 @@
         position: relative;
         top: 20vh;
         left: 8vw;
-        width: 550px;
+        width: 34.375rem;
         height: auto;
         padding: 1.5rem 1.875rem 1.5rem 1.875rem;
         border: solid white 2px;
@@ -43,13 +47,17 @@
         position: relative;
         top: 5.5vh;
         left: 8vw;
-        width: 180px;
+        width: 11.25rem;
+    }
+
+    .logo .toggle.use {
+        position: fixed;
     }
 
     nav {
         color: #fff;
-        position: absolute;
-        right: 8vw;
+        position: relative;
+        right: 0;
         top: 6vh;
     }
 
@@ -60,21 +68,21 @@
         color: #fff;
         font-family: "Josefin Sans", sans-serif;
         font-weight: bold;
-        margin-left: 25px;
-        padding-bottom: 5px;
+        margin-left: 1.563rem;
+        padding-bottom: 0.313rem;
     }
 
     nav a:hover {
-        border-bottom: 2px solid #fff;
+        border-bottom: 0.125rem solid #fff;
     }
 
     .first-section {
         display: flex;
-        margin: 150px 0 50px 150px;
+        margin: 9.375rem 0 3.125rem 9.375rem;
     }
 
     .first-section img {
-        width: 900px;
+        width: 56.25rem;
     }
 
     .vr-div {
@@ -83,42 +91,42 @@
         position: relative;
         top: 15vh;
         right: 9vw;
-        height: 380px;
+        height: 23.75rem;
         width: 70%;
-        padding: 20px;
+        padding: 1.25rem;
     }
 
     .first-section p {
         text-align: left;
-        font-size: 1em;
+        font-size: 1rem;
         font-family: "Alata", sans-serif;
         color: rgb(126, 119, 119);
-        margin: 50px auto 50px auto;
+        margin: 3.125rem auto 3.125rem auto;
         width: 90%;
     }
 
-    .first-section h1 {
+    .first-section h2 {
         text-transform: uppercase;
         font-size: 2.2rem;
         letter-spacing: 3px;
-        margin: 50px auto 50px auto;
+        margin: 3.125rem auto 3.125rem auto;
         color: #111;
         width: 80%;
     }
 
     .img-header {
-        height: 100px;
+        height: 6.25rem;
         width: 85%;
         display: flex;
         justify-content: space-between;
         align-items: center;
-        margin: 80px auto 50px auto;
+        margin: 5rem auto 3.125rem auto;
     }
 
-    .second-section h1 {
-        margin-top: 10px;
+    .second-section h2 {
+        margin-top: 0.625rem;
         font-size: 2rem;
-        letter-spacing: 3px;
+        letter-spacing: 0.188rem;
         font-family: "Josefin Sans", sans-serif;
         text-transform: uppercase;
         color: #111;
@@ -127,15 +135,15 @@
     .button {
         background-color: #fff;
         border-color: #111;
-        border: 1.8px solid;
+        border: 0.113rem solid;
         font-family: "Alata", sans-serif;
-        width: 180px;
-        height: 50px;
+        width: 11.25rem;
+        height: 3.125rem;
         font-size: 1rem;
         text-transform: uppercase;
-        letter-spacing: 5px;
+        letter-spacing: 0.313rem;
         cursor: pointer;
-        padding: 7px;
+        padding: 0.438rem;
     }
 
     .button {
@@ -156,22 +164,22 @@
         grid-template-rows: auto;
         grid-auto-rows: auto;
         grid-gap: 2rem;
-        margin-bottom: 90px;
+        margin-bottom: 5.625rem;
     }
 
     .item {
         display: flex;
         flex-direction: column;
-        height: 489px;
-        margin-bottom: 20px;
+        height: 30.563rem;
+        margin-bottom: 1.25rem;
         align-items: flex-start;
         justify-content: flex-end;
         text-transform: uppercase;
-        font-size: 1.8em;
-        padding: 20px;
+        font-size: 1.8rem;
+        padding: 1.25rem;
     }
     .item p {
-        margin: 0 0 20px 30px;
+        margin: 0 0 1.25rem 1.875rem;
         text-align: left;
         width: 60%;
     }
@@ -235,30 +243,30 @@
         justify-content: space-around;
         align-items: center;
         width: 100%;
-        height: 180px;
+        height: 11.25rem;
         background-color: #111;
         color: #fff;
     }
 
     .footer-container {
-        margin-bottom: 20px;
+        margin-bottom: 1.25rem;
     }
 
     .footer-links {
         font-family: "Alata", sans-serif;
-        margin: 0 10px 0 0;
+        margin: 0 0.625rem 0 0;
         cursor: pointer;
-        padding-bottom: 5px;
+        padding-bottom: 0.313rem;
     }
 
     .footer-links:hover {
-        border-bottom: 2px solid #fff;
+        border-bottom: 0.125rem solid #fff;
     }
 
     .attribution {
         display: block;
         text-align: right;
-        margin-top: 20px;
+        margin-top: 1.25rem;
     }
 
     .attribution a {
@@ -273,7 +281,7 @@
     }
 
     .icons-container i {
-        margin-left: 20px;
+        margin-left: 1.25rem;
         cursor: pointer;
     }
 
@@ -297,26 +305,27 @@
     .header-items {
         width: 100%;
         position: relative;
-        padding-left: 30px;
+        padding-left: 1.875rem;
     }
 
     header h1 {
+        font-family: "Josefin Sans", sans-serif;
         text-transform: uppercase;
         font-size: 2.3rem;
         font-weight: lighter;
-        letter-spacing: 0.0697em;
+        letter-spacing: 0.0897rem;
         position: absolute;
         top: 28vh;
         width: 85%;
         height: auto;
         padding: 1.5rem 1.875rem 1.5rem 1.875rem;
-        border: solid white 2px;
+        border: solid white 0.125rem;
     }
 
     .logo {
         position: absolute;
         top: 5.5vh;
-        left: 20px;
+        left: 1.25rem;
         width: 40vw;
         z-index: 1;
     }
@@ -341,9 +350,9 @@
         font-family: "Josefin Sans", sans-serif;
         text-transform: uppercase;
         font-size: 1.5em;
-        left: 20px;
-        margin: 15px;
-        margin-left: 30px;
+        left: 1.25rem;
+        margin: 0.938rem;
+        margin-left: 1.875rem;
     }
 
     .show {
@@ -358,8 +367,8 @@
         cursor: pointer;
         padding: 0;
         position: relative;
-        height: 30px;
-        width: 30px;
+        height: 1.875rem;
+        width: 1.875rem;
     }
 
     .icon:focus {
@@ -368,24 +377,24 @@
 
     .icon .line {
         background-color: #fff;
-        height: 2px;
-        width: 22px;
+        height: 0.125rem;
+        width: 1.375rem;
         position: absolute;
-        top: 10px;
-        left: 5px;
+        top: 0.625rem;
+        left: 0.313rem;
         transition: transform 0.3s linear;
         z-index: 1;
     }
 
     .icon .line2 {
         top: auto;
-        bottom: 10px;
+        bottom: 0.625rem;
     }
 
     .icon {
         position: absolute;
         top: 4.9vh;
-        right: 20px;
+        right: 1.25rem;
     }
 
     .icon.active .line1 {
@@ -399,7 +408,7 @@
 
     section {
         text-align: center;
-        padding: 10px;
+        padding: 0.625rem;
     }
 
     .vr-div {
@@ -408,15 +417,15 @@
     }
 
     .first-section {
-        margin-top: 70px;
-        margin-bottom: 50px;
+        margin-top: 4.375rem;
+        margin-bottom: 3.125rem;
     }
 
     .first-section p {
-        font-size: 1rem;
-        color: rgb(126, 119, 119);
+        font-size: 1.2rem;
+        color: rgb(136, 128, 128);
         font-family: "Josefin Sans", sans-serif;
-        font-weight: lighter;
+        font-weight: bold;
     }
 
     .first-section img {
@@ -424,20 +433,21 @@
     }
 
     .first-section h2 {
+        font-family: "Josefin Sans", sans-serif;
         text-transform: uppercase;
-        font-size: 1.8em;
-        letter-spacing: 3px;
-        margin: 40px 0 20px 0;
+        font-size: 1.8rem;
+        letter-spacing: 0.188rem;
+        margin: 2.5rem 0 1.25rem 0;
         color: #111;
     }
 
     .second-section h2 {
-        font-size: 1.5em;
-        letter-spacing: 3px;
+        font-size: 1.5rem;
+        letter-spacing: 0.188rem;
         font-family: "Josefin Sans", sans-serif;
         text-transform: uppercase;
         color: #111;
-        margin-bottom: 50px;
+        margin-bottom: 3.125rem;
     }
 
     .img-container {
@@ -445,7 +455,7 @@
         color: #fff;
         margin-top: 3rem;
         flex-direction: column;
-        margin-bottom: 10px;
+        margin-bottom: 0.625rem;
         margin: auto;
         width: 95%;
     }
@@ -453,15 +463,16 @@
     .item {
         display: flex;
         flex-direction: column;
-        height: 130px;
-        margin-bottom: 20px;
+        height: 8.125rem;
+        margin-bottom: 1.25rem;
         align-items: flex-start;
         justify-content: flex-end;
         text-transform: uppercase;
-        font-size: 1.6em;
-        padding: 20px;
+        font-size: 1.6rem;
+        padding: 1.25rem;
     }
     .item p {
+        font-family: "Josefin Sans", sans-serif;
         text-align: left;
         width: 45%;
     }
@@ -534,28 +545,28 @@
     .footer-links {
         font-size: 1rem;
         font-family: "Alata", sans-serif;
-        margin: 10px;
+        margin: 0.625rem;
         cursor: pointer;
     }
 
     .footer-container {
-        margin-top: 40px;
+        margin-top: 1.25rem;
     }
 
     .footer a {
-        margin: 20px;
+        margin: 1.25rem;
         display: block;
         text-decoration: none;
         color: rgb(255, 255, 255);
     }
 
     .icons-container {
-        margin: 20px;
+        margin: 1.25rem;
     }
 
     .icons-container i {
         font-size: 1.8rem;
-        margin: 5px;
+        margin: 0.313rem;
         cursor: pointer;
     }
 
@@ -569,7 +580,7 @@
         font-size: 1rem;
         font-weight: 300;
         text-align: center;
-        margin-bottom: 30px;
+        margin-bottom: 1.875rem;
     }
 
     .button {
@@ -578,16 +589,16 @@
     .mobile-btn {
         background-color: #fff;
         border-color: #111;
-        border: 1.8px solid;
+        border: 0.113rem solid;
         font-family: "Alata", sans-serif;
-        width: 180px;
+        width: 11.25rem;
         height: auto;
-        font-size: 1em;
+        font-size: 1rem;
         text-transform: uppercase;
-        letter-spacing: 5px;
+        letter-spacing: 0.313rem;
         cursor: pointer;
-        padding: 10px;
-        margin: 20px 0 40px 0;
+        padding: 0.625rem;
+        margin: 1.25rem 0 2.5rem 0;
     }
 
     .mobile-btn {
